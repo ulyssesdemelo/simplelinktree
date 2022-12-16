@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<link rel="icon" href="favicon-travel-trip-viagens.png" type="image/png" sizes="16x16">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="language" content="pt-br">
+<title>Travel Trip | Agência de Viagens, Turismo de Aventura e Ecoturismo</title>
+
+<meta name="description" content="A Travel Trip é uma agência de viagens especializada em turismo de aventura e ecoturismo, com diversas opções nacionais e internacionais. Vem viajar conosco!">
+<meta name="keywords" content="Agência de Viagens, Turismo de Aventura e Ecoturismo">
+<meta name="author" content="Ulysses de Melo">
+
+<meta property="og:title" content="Travel Trip | Agência de Viagens, Turismo de Aventura e Ecoturismo" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.traveltrip.br/tree/" />
+<meta property="og:description" content="A Travel Trip é uma agência de viagens especializada em turismo de aventura e ecoturismo, com diversas opções nacionais e internacionais. Vem viajar conosco!">
+<meta property="og:image" content="https://www.traveltrip.br/tree/imagens/travel-trip-viagens-logo-banner-1200x628.png">
+<meta property="og:image:alt" content="Agência de Viagens, Turismo de Aventura e Ecoturismo" />
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.traveltrip.br/tree/">
+<meta property="twitter:title" content="Travel Trip | Agência de Viagens, Turismo de Aventura e Ecoturismo">
+<meta property="twitter:description" content="Agência de Viagens, Turismo de Aventura e Ecoturismo">
+<meta property="twitter:image" content="https://www.traveltrip.br/tree/imagens/travel-trip-viagens-logo-banner-1200x628.png"> 
+
+<style>
+
+/* reset principal */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* padrão de cor e fonts */ 
+:root {
+
+    /* colors */
+    --cor-padrao: #fff;
+    --cor-bground: #03a9f4;
+    --cor-btao: #2bbdeb;
+
+    /* fonts */
+    --font: Tahoma, sans-serif;
+    --base-font-size: 1.2rem;
+}
+
+/* Config body */ 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-bground);
+    color: var(--cor-padrao);
+    font-family: Arial,"Times New Roman",Times,serif;
+}
+
+/* Config container principal */ 
+.container {
+    width: min(100% - 3em, 32em);
+}
+
+/* Config header, logotipo e titulo principal */ 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Config Logotipo */ 
+.logotipo {
+    background: var(--cor-padrao);
+    border-radius: 50%;
+    height: 5.6em;
+    width: 5.6em;
+}
+
+/* Config titulo principal */ 
+header h1 {
+    font-size: clamp(1rem, 10vw + 0.5rem, 1rem); /*font-size: .9rem; */
+    margin-left: 8px;
+}
+
+/* Config logo verificado */ 
+.verificado {
+    display: flex;
+    margin: 20px 0;
+
+}
+
+/* Config menu */ 
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Config botões do menu */ 
+.menu-botao {
+    width: 100%;
+    padding: 15px 0 15px 0;
+    background: var(--cor-btao);
+    color: var(--cor-padrao);
+    font-size: .9rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid var(--cor-btao);
+    border-radius: 30px;
+    font-family: Verdana, Geneva;
+    font-weight: 700;
+    display:inline-block;
+}
+
+/* Config efeitos botões do menu */ 
+.menu-botao:hover{
+    background-color:var(--cor-padrao);
+    color:var(--cor-btao);
+    border:2px solid var(--cor-btao);
+}
+
+/* Config efeito shake no botao */ 
+.shake{
+    animation:shake-animation 4.72s ease infinite;
+    transform-origin:50% 50%;
+}
+
+@keyframes shake-animation{0%{transform:translate(0,0)}1.78571%{transform:translate(5px,0)}3.57143%{transform:translate(0,0)}5.35714%{transform:translate(5px,0)}7.14286%{transform:translate(0,0)}8.92857%{transform:translate(5px,0)}10.71429%{transform:translate(0,0)}100%{transform:translate(0,0)}}
+
+/* Linha azul na divisoria */ 
+hr {
+    background-color: var(--cor-btao);
+    height:1px;
+}
+
+/* Container social mídia */ 
+.social-midia {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin: 30px 60px 0 60px;
+}
+
+/* Boxes social mídia icones */ 
+.soci-box {
+    cursor: pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+ <!-- ínício container principal -->
+<div class="container">
+    <header>
+
+         <!-- Logotipo -->
+        <section class="logotipo" alt="Travel Trip" title="Travel Trip"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 651.27 270">
+                     <defs>
+                        <style>.cls-1{fill:#03a9f4;}</style>
+                     </defs>
+                     <path class="cls-1" d="M190.18,268s2.09-185.45-78.81-201.95C62.86,56.15,3,105.45,3,105.45S52.1,12.57,126.14,11.86c103.56-1,64.78,141.54,98.52,142.85C259.92,156.08,333.38.48,406.91,2c64,0,63.78,85.77,133,93.59,58.94,6.66,108.36-73.89,108.36-73.89s0,142.85-137.92,147.78c-73.84,2.63-62.6-100.9-133-78.82C282.19,120.53,190.18,268,190.18,268Z"></path>
+                  </svg></section>
+
+        <!-- Verificado Logo -->
+        <section class="verificado" alt="Página Oficial" title="Página Oficial">
+            <svg viewBox="0 0 512 512" width="16px" height="16px" style="enable-background:new 0 0 512 512" xml:space="preserve"><style>.st0{fill:#fff}</style><g id="_x3C_Group_x3E_"> <path class="st0" d="M512,268c0,17.9-4.3,34.5-12.9,49.7c-8.6,15.2-20.1,27.1-34.6,35.4c0.4,2.7,0.6,6.9,0.6,12.6 c0,27.1-9.1,50.1-27.1,69.1c-18.1,19.1-39.9,28.6-65.4,28.6c-11.4,0-22.3-2.1-32.6-6.3c-8,16.4-19.5,29.6-34.6,39.7 C290.4,507,273.9,512,256,512c-18.3,0-34.9-4.9-49.7-14.9c-14.9-9.9-26.3-23.2-34.3-40c-10.3,4.2-21.1,6.3-32.6,6.3 c-25.5,0-47.4-9.5-65.7-28.6c-18.3-19-27.4-42.1-27.4-69.1c0-3,0.4-7.2,1.1-12.6c-14.5-8.4-26-20.2-34.6-35.4 C4.3,302.5,0,285.9,0,268c0-19,4.8-36.5,14.3-52.3c9.5-15.8,22.3-27.5,38.3-35.1c-4.2-11.4-6.3-22.9-6.3-34.3 c0-27,9.1-50.1,27.4-69.1c18.3-19,40.2-28.6,65.7-28.6c11.4,0,22.3,2.1,32.6,6.3c8-16.4,19.5-29.6,34.6-39.7 C221.6,5.1,238.1,0,256,0c17.9,0,34.4,5.1,49.4,15.1c15,10.1,26.6,23.3,34.6,39.7c10.3-4.2,21.1-6.3,32.6-6.3 c25.5,0,47.3,9.5,65.4,28.6c18.1,19.1,27.1,42.1,27.1,69.1c0,12.6-1.9,24-5.7,34.3c16,7.6,28.8,19.3,38.3,35.1 C507.2,231.5,512,249,512,268z M245.1,345.1l105.7-158.3c2.7-4.2,3.5-8.8,2.6-13.7c-1-4.9-3.5-8.8-7.7-11.4 c-4.2-2.7-8.8-3.6-13.7-2.9c-5,0.8-9,3.2-12,7.4l-93.1,140L184,263.4c-3.8-3.8-8.2-5.6-13.1-5.4c-5,0.2-9.3,2-13.1,5.4 c-3.4,3.4-5.1,7.7-5.1,12.9c0,5.1,1.7,9.4,5.1,12.9l58.9,58.9l2.9,2.3c3.4,2.3,6.9,3.4,10.3,3.4 C236.6,353.7,241.7,350.9,245.1,345.1z"></path> </g> </svg>
+            
+            <!-- Nome principal -->
+            <h1>@tourtrip</h1>
+        </section>
+    </header>
+
+    <!-- Container Menu -->
+    <main>
+        <nav>
+            <a class="menu-botao shake" alt="Escolha sua viagem" title="Escolha a sua viagem" href="https://www.traveltrip.br/cadastro">Escolha sua viagem</a>
+            <a class="menu-botao" alt="Visite nosso site" title="Visite nosso site" href="https://www.traveltrip.br/cadastro">Site Tour Trip</a>
+            <a class="menu-botao" alt="Conheça nosso grupo de ofertas e promoções" title="Conheça nosso grupo de ofertas e promoções" href="https://www.traveltrip.br/cadastro">Faça parte do nosso grup</a>
+            <hr>
+            <a class="menu-botao" alt="Com dúvidas? Fale com os nossos Guias!" title="Com dúvidas? Fale com os nossos Guias" href="https://www.traveltrip.br/whatsatendimento">Whatsapp Atendimento</a>
+        </nav>
+    </main>
+
+    <!-- Container Social Mídia -->
+    <footer class="social-midia">
+            <div class="soci-box" alt="Visite nosso Facebook" title="Visite nosso Facebook"><svg viewBox="0 0 512 512" width="30px" height="30px"> 
+                <a xlink:href="https://www.facebook.com/traveltrip/"> <path fill="#ffffff" d="M492,352c11.046,0,20-8.954,20-20V80c0-44.112-35.888-80-80-80H80C35.888,0,0,35.888,0,80v352c0,44.112,35.888,80,80,80 h352c44.112,0,80-35.888,80-80c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20c0,22.056-17.944,40-40,40H327V298h45 c11.046,0,20-8.954,20-20c0-11.046-8.954-20-20-20h-45v-55c0-22.056,17.944-40,40-40h10c11.046,0,20-8.954,20-20s-8.954-20-20-20 h-10c-44.112,0-80,35.888-80,80v55h-45c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h45v174H80c-22.056,0-40-17.944-40-40V80 c0-22.056,17.944-40,40-40h352c22.056,0,40,17.944,40,40v252C472,343.046,480.954,352,492,352z"></path> </a> </svg></div>
+            <div class="soci-box" alt="Conheça nosso Instagram" title="Conheça nosso Instagram"><svg viewBox="0 0 512 512" width="30px" height="30px">
+                <a xlink:href="https://www.instagram.com/traveltrip/"> <path fill="#ffffff" d="M363.273,0H148.728C66.719,0,0,66.719,0,148.728v214.544C0,445.281,66.719,512,148.728,512h214.544 c23.662,0,46.291-5.399,67.26-16.049c19.98-10.146,37.717-24.968,51.293-42.864c6.675-8.799,4.954-21.345-3.846-28.021 c-8.797-6.675-21.344-4.956-28.021,3.846C429.183,456.295,397.588,472,363.273,472H148.728C88.775,472,40,423.225,40,363.273 V148.728C40,88.775,88.775,40,148.728,40h214.544C423.225,40,472,88.775,472,148.728V343c0,11.046,8.954,20,20,20 c11.046,0,20-8.954,20-20V148.728C512,66.719,445.281,0,363.273,0z"></path> <path fill="#ffffff" d="M256,118c-76.094,0-138,61.906-138,138s61.906,138,138,138s138-61.906,138-138S332.094,118,256,118z M256,354 c-54.037,0-98-43.963-98-98s43.963-98,98-98s98,43.963,98,98S310.037,354,256,354z"></path> <circle fill="#ffffff" cx="396" cy="116" r="20"></circle> </a> </svg></div>
+            <div class="soci-box" alt="Nos envie e-mails" title="Nos envie e-mails"><svg viewBox="0 0 512 512" width="35px" height="35px">
+                <a xlink:href="mailto:atendimento@traveltrip.br"> <path fill="#ffffff" d="M492,291.5c11.046,0,20-8.954,20-20v-131c0-44.112-35.888-80-80-80H80c-44.112,0-80,35.888-80,80v231 c0,44.112,35.888,80,80,80h352c44.112,0,80-35.888,80-80c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20 c0,22.056-17.944,40-40,40H80c-22.056,0-40-17.944-40-40V144.738l173.755,108.045c13.029,8.101,27.637,12.152,42.245,12.152 c14.608,0,29.216-4.051,42.245-12.152L472,144.738V271.5C472,282.546,480.954,291.5,492,291.5z M277.122,218.814 c-13.028,8.101-29.216,8.102-42.244,0L56.689,108.012c6.568-4.726,14.62-7.512,23.311-7.512h352 c8.691,0,16.743,2.787,23.311,7.513L277.122,218.814z"></path> </a> </svg></div>
+            <div class="soci-box" alt="Fale com os nosso Guias" title="Fale com os nosso Guias"><svg viewBox="0 0 512 512" width="30px" height="30px"> <a xlink:href="tel:(41) 3069-0880"> <path fill="#ffffff" d="M511.95,412.553c-0.714-19.805-8.964-38.287-23.229-52.042c-27.931-26.933-51.333-42.481-73.647-48.929 c-30.745-8.886-59.225-0.806-84.641,24.016c-0.038,0.037-0.076,0.075-0.114,0.113l-27.04,26.838 c-16.899-9.526-49.759-30.442-85.261-65.944l-2.632-2.63c-35.508-35.507-56.423-68.373-65.94-85.253l26.84-27.041 c0.038-0.038,0.076-0.076,0.114-0.115c24.821-25.414,32.901-53.892,24.016-84.641c-6.449-22.313-21.996-45.715-48.93-73.646 C137.732,9.016,119.251,0.766,99.446,0.052C79.629-0.663,60.613,6.235,45.865,19.473l-0.574,0.516 c-0.266,0.239-0.526,0.486-0.78,0.739C15.152,50.087-0.238,91.188,0.003,139.589c0.411,82.222,45.6,176.25,120.879,251.528 c14.195,14.195,30.328,28.243,47.95,41.755c8.765,6.72,21.319,5.064,28.04-3.702c6.722-8.766,5.064-21.32-3.702-28.041 c-16.235-12.449-31.04-25.333-44.004-38.294C81.17,294.839,40.361,211.309,40.002,139.39 c-0.185-37.276,11.028-68.389,32.431-90.015l0.153-0.138c14.537-13.049,36.546-12.255,50.108,1.808 c51.779,53.698,48.03,79.049,25.15,102.511l-37.074,37.352c-5.814,5.858-7.433,14.686-4.076,22.226 c0.941,2.114,23.71,52.427,80.415,109.132l2.633,2.629c56.698,56.699,107.012,79.467,109.126,80.408 c7.538,3.359,16.368,1.739,22.225-4.075l37.353-37.075c23.465-22.881,48.816-26.628,102.511,25.151 c14.063,13.56,14.857,35.57,1.811,50.105l-0.142,0.157c-21.449,21.229-52.231,32.433-89.101,32.433c-0.304,0-0.608,0-0.913-0.002 c-29.471-0.147-63.598-8.226-98.689-23.362c-10.14-4.376-21.911,0.3-26.285,10.443c-4.375,10.143,0.3,21.911,10.443,26.286 c40.562,17.496,79.028,26.456,114.332,26.633c0.375,0.001,0.747,0.002,1.122,0.002c47.914,0,88.607-15.379,117.739-44.51 c0.253-0.254,0.499-0.513,0.738-0.78l0.519-0.577C505.768,451.385,512.665,432.357,511.95,412.553z"></path> </a> 
+            </svg></div>
+    </footer>
+</div>
+
+</body>
+</html>
