@@ -25,7 +25,7 @@
 ---
 
 <p align="center">
-  <img alt="screenshot" src="screenshot-960x540.png">
+  <img alt="screenshot" src="linktree-screenshot-960x540.avif">
 </p>
 
 ---
